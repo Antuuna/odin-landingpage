@@ -4,16 +4,18 @@ body {
     margin: 0;
 }
 
-.one {
+.flex {
     display: flex;
+}
+
+.one {
     flex-direction: column;
     background-color: #1F2937;
-     padding: 0px 300px;
+     padding: 0px 500px;
     /* padding: 0px 80px; */
 }
 
 .one-header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 16px 0px;
@@ -39,6 +41,47 @@ li {
 
 .header-logo {
     font-size: 24px;
-    color: #F9FaF8;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.one-body {
+    margin: 100px 0px;
+}
+
+.left {
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}
+
+.right {
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left,
+.right {
+    flex: 1;
+}
+
+.title {
+    font-size: 48px;
+    font-weight:900;
+    color: #F9FAF8;
+}
+
+.description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    font-size: 20px;
     font-weight: bold;
 }
