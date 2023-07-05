@@ -1,3 +1,4 @@
+/* General Classes */
 body {
     display: flex;
     flex-direction: column;
@@ -14,12 +15,13 @@ body {
     flex-direction: column;
 }
 
+/* Styling for SECTION ONE */
 .one {
     background-color: #1F2937;
-     padding: 0px 500px;
-    /* padding: 0px 80px; */
+    padding: 0px 500px;
 }
 
+/* Styling for SECTION ONE HEADER */
 .one-header {
     justify-content: space-between;
     align-items: center;
@@ -50,6 +52,7 @@ li {
     font-weight: bold;
 }
 
+/* Styling for SECTION ONE BODY */
 .one-body {
     margin: 100px 0px;
 }
