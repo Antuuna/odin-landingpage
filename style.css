@@ -136,3 +136,23 @@ button {
     text-align: center;
     font-size: 18px;
 }
+
+/* Styling for SECTION THREE */
+.three {
+    background-color: #E5E7EB;
+    padding: 122px 500px;
+    text-align: left;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-speaker {
+    text-align: right;
+    font-weight: bold;
+    font-size: 28px;
+}
