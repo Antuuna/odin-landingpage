@@ -92,3 +92,48 @@ button {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* Styling for SECTION TWO */
+.two {
+    background-color: white;
+}
+
+/* Styling for SECTION TWO HEADER */
+.two-header {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+/* Styling for SECTION TWO BODY */
+
+.grimace {
+    width: 175px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.info1,
+.info2,
+.info3,
+.info4 {
+    align-items: center;
+    width: 175px;
+    flex: 0 0 175px;
+    gap: 16px;
+}
+
+.two-body {
+    justify-content: center;
+    margin: 0 300px 122px 300px;
+    gap: 32px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 18px;
+}
+
