@@ -91,6 +91,7 @@ button {
     padding: 8px 32px;
     font-size: 20px;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 /* Styling for SECTION TWO */
@@ -155,4 +156,41 @@ button {
     text-align: right;
     font-weight: bold;
     font-size: 28px;
+}
+
+/* Styling for SECTION FOUR */
+/* Button styling above */
+
+.four {
+    justify-content: center;
+    align-items: center;
+    margin: 150px 200px 150px 200px;
+}
+
+/* Styling for SECTION FOUR AD */
+.ad {
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 48px 150px;
+    justify-content: space-between;
+}
+
+.ad-body {
+    margin-right: 400px;
+}
+
+
+.ad-title {
+    font-size: 30px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+.ad-description {
+    font-size: 20px;
+    color:#E5E7EB;
+}
+
+.ad-button {
+    border-color:#F9FAF8;
 }
