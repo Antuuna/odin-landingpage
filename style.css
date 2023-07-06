@@ -141,7 +141,7 @@ button {
 /* Styling for SECTION THREE */
 .three {
     background-color: #E5E7EB;
-    padding: 122px 500px;
+    padding: 122px 510px;
     text-align: left;
 }
 
@@ -176,9 +176,8 @@ button {
 }
 
 .ad-body {
-    margin-right: 400px;
+    margin-right: 150px;
 }
-
 
 .ad-title {
     font-size: 30px;
@@ -193,4 +192,14 @@ button {
 
 .ad-button {
     border-color:#F9FAF8;
+}
+
+/* Styling for footer */
+.footer {
+    background-color:#1F2937;
+    color:#E5E7EB;
+    padding: 24px 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
